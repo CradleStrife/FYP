@@ -1,6 +1,8 @@
-# Web-based Speech Recognition System
+# Analysis of Indonesian/English Speech and Summarization for Banking Phone Calls
 
 **Name:** Lai Yi
+
+**Working with:** Vu Thi Ly (App / Integration)
 
 **FYP ID:** CCDS26-0153
 
@@ -12,17 +14,17 @@
 
 **Cohort:** 2026 S2
 
-**Start Date:** TBD
+**Start Date:** 10 Aug 2026
 
-**End Date:** TBD
+**End Date:** 12 May 2027 (Oral Presentation)
 
 **Contact:** LAIY0038@ntu.edu.sg | 9086 4206
 
 ## Overview
 
-This project is part of the NTU-Webank Speech-LLM initiative, which explores Speech-LLM technology for under-resourced languages, with a focus on Bahasa Indonesia. The broader goal is to build a full pipeline that transcribes Bahasa Indonesian speech, translates it into English and Chinese, and generates conversation summaries.
+This project is part of the NTU-WeBank Speech-LLM initiative, which explores Speech-LLM technology for under-resourced languages, with a focus on Bahasa Indonesia. The broader goal is to build a full pipeline for banking phone call use cases: transcribing Indonesian/English speech, translating it into English and Chinese, and generating call summaries.
 
-This FYP focuses on the full-stack development and deployment of a web-based speech recognition system that supports this pipeline — integrating ASR and LLM model outputs into a usable application, with dashboards for conversation analytics and support for batch file uploads.
+This FYP covers the ASR adaptation, fine-tuning, and evaluation side of that pipeline, together with the full-stack development and deployment of a web-based application that surfaces it — integrating ASR and LLM (translation/summarization) outputs into a usable interface, with dashboards for conversation analytics and support for batch file uploads. Lai Yi is responsible, together with Ly, for the end-to-end pipeline (ASR → translation/summarization → application), with Ly leading the app/integration side.
 
 ## Video Updates
 
@@ -32,13 +34,13 @@ Playlist:
 
 ## Roadmap / Milestones
 
-- **Data curation:** Filter and sample the ~2000 hours of Bahasa Indonesian speech data collected from YouTube (dedup, denoise, sample by domain/accent); define a pilot subset (e.g. 50–100 hours) for early-stage work
-- **ASR transcription:** Run existing Qwen-Audio / Whisper models to transcribe the pilot subset into Bahasa Indonesian text; evaluate quality via manual spot-checks
-- **LLM handoff:** Deliver transcribed text to the LLM team for translation fine-tuning (Indonesian → English/Chinese); align on required data format
-- **App integration:** Integrate ASR and translation outputs into a web application, with a dashboard supporting batch upload and conversation analytics
+- **Dataset & baseline construction:** Curate a fixed, versioned evaluation set from the 1,688-hour data pool (1,000h existing GigaSpeech2 corpus + 688h newly scraped/domain-tagged data); build reproducible evaluation scripts (WER/CER/normalized WER); benchmark SOTA open-source and commercial ASR models, including **MERaLiON**, which natively supports Bahasa Indonesia — building on an existing data-selection pipeline already developed by the team rather than starting from scratch
+- **Model adaptation & fine-tuning:** Iteratively fine-tune and adapt the strongest baseline model(s), including MERaLiON, using the existing selection pipeline; re-evaluate against the fixed test set each round
+- **LLM handoff:** Deliver transcribed text to the LLM team for translation (Indonesian → English/Chinese) and summarization, aligned on required data format; explore MERaLiON's translation/summarization capabilities as part of the banking use case
+- **App integration:** Integrate ASR and translation/summarization outputs into a web application, with a dashboard supporting batch upload and conversation analytics (led together with Ly)
 - **Deployment:** Assess and set up deployment infrastructure for the system
-- **Reporting:** Regular milestone reports and progress updates to Prof Chng
+- **Reporting:** Regular milestone reports and progress updates to Prof Chng, aligned to official FYP dates (Interim Report 25 Jan 2027, Final Report 22 Mar 2027, Oral Presentation 7–12 May 2027)
 
 ## Notes
 
-This README follows the team's standard project template. Start/end dates and the video playlist link are placeholders pending confirmation — please update before publishing to GitHub.
+This README follows the team's standard project template and reflects the FYP Proposal (v2) confirmed with Prof Chng. The video playlist link is still a placeholder pending content — please update before publishing further.
