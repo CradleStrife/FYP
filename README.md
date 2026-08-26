@@ -30,7 +30,7 @@ This FYP covers the ASR adaptation, fine-tuning, and evaluation side of that pip
 
 Playlist:
 
-[YouTube Playlist](#)
+[YouTube Playlist](https://www.youtube.com/watch?v=ReaR2Q8Vnfg)
 
 ## Roadmap / Milestones
 
