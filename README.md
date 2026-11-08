@@ -28,9 +28,19 @@ This FYP covers the ASR adaptation, fine-tuning, and evaluation side of that pip
 
 ## Video Updates
 
-Playlist:
+Playlist: [FYP Progress Updates](https://www.youtube.com/playlist?list=PLDnI9xxI9SiI) — one short video (≤ 3 min) every two teaching weeks; recess week is not counted.
 
-[YouTube Playlist](https://www.youtube.com/watch?v=ReaR2Q8Vnfg)
+| Ep | Teaching weeks | Dates (2026) | Topic | Video |
+|---|---|---|---|---|
+| 1 | Week 1 | 10 – 16 Aug | Kick-off: where my FYP fits | [watch](https://youtu.be/QfJpWQ6qKv0) |
+| 2 | Weeks 2–3 | 17 – 30 Aug | Scope fixed, first benchmark set up | [watch](https://youtu.be/SsXY-q9EXn4) |
+| 3 | Weeks 4–5 | 31 Aug – 13 Sep | MERaLiON chosen; the real question is the data | [watch](https://youtu.be/qHYxD-pWcpw) |
+| 4 | Weeks 6–7 | 14 – 27 Sep | Fine-tuning hurts the benchmarks, but works in-domain | [watch](https://youtu.be/NG9HbYG5rJk) |
+| 5 | Recess + Weeks 8–9 | 28 Sep – 18 Oct | Data leakage found; source paper reproduced | [watch](https://youtu.be/Ox6fGsxOVzk) |
+| 6 | Weeks 10–11 | 19 Oct – 1 Nov | Hotword biasing for Singapore names: 31.6% → 87.9% | [watch](https://youtu.be/LYNerYbcBUg) |
+| 7 | Weeks 12–13 | 2 – 15 Nov | Voice cloning, and a configurable hotword pipeline | after 15 Nov |
+
+First update video (26 Aug 2026): [watch](https://www.youtube.com/watch?v=ReaR2Q8Vnfg)
 
 ## Roadmap / Milestones
 
@@ -43,4 +53,4 @@ Playlist:
 
 ## Notes
 
-This README follows the team's standard project template and reflects the FYP Proposal (v2) confirmed with Prof Chng. The video playlist link is still a placeholder pending content — please update before publishing further.
+This README follows the team's standard project template and reflects the FYP Proposal (v2) confirmed with Prof Chng. Progress videos are narrated with an AI-generated voice; scripts and slides are drafted with Claude Code from my project records.
