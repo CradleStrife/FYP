@@ -38,7 +38,7 @@ Playlist: [FYP Progress Updates](https://www.youtube.com/playlist?list=PLDnI9xxI
 | 4 | Weeks 6–7 | 14 – 27 Sep | Fine-tuning hurts the benchmarks, but works in-domain | [watch](https://youtu.be/NG9HbYG5rJk) |
 | 5 | Recess + Weeks 8–9 | 28 Sep – 18 Oct | Data leakage found; source paper reproduced | [watch](https://youtu.be/Ox6fGsxOVzk) |
 | 6 | Weeks 10–11 | 19 Oct – 1 Nov | Hotword biasing for Singapore names: 31.6% → 87.9% | [watch](https://youtu.be/LYNerYbcBUg) |
-| 7 | Weeks 12–13 | 2 – 15 Nov | Voice cloning, and a configurable hotword pipeline | after 15 Nov |
+| 7 | Weeks 12–13 | 2 – 15 Nov | Hotword pipeline, tested on real Singapore speech | [watch](https://youtu.be/EcrZlUKlfCY) |
 
 First update video (26 Aug 2026): [watch](https://www.youtube.com/watch?v=ReaR2Q8Vnfg)
 
